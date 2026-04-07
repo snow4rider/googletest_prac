@@ -1,0 +1,23 @@
+# --- Build Artifacts ---
+# Exclude local build directories to prevent 'CMakeCache.txt' path conflicts
+build/
+bin/
+out/
+cmake-build-*/
+.build/
+
+# --- Version Control ---
+.git
+.gitignore
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Testing & Logs ---
+# Exclude local test logs or GTest outputs
+tests/output/
+*.log
+_deps/

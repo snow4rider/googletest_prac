@@ -1,0 +1,45 @@
+# --- CMake Artifacts ---
+# Ignore the entire build directory (recommended approach)
+[Bb]uild/
+# Alternatively, if you build in-source (not recommended):
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+_deps/
+
+# --- Google Test / CTest ---
+Testing/
+*.gcov
+*.gcda
+*.gcno
+
+# --- Compiled Binaries & Libraries ---
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# --- IDE & Editor Specific ---
+# VS Code
+.vscode/
+# Visual Studio
+.vs/
+out/
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
