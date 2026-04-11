@@ -59,6 +59,12 @@
                 // Terminal
                 "terminal.integrated.fontSize": 12 // Adjust terminal font size
             }
+        },
+        "jetbrains": {
+            "plugins": [
+                "com.github.catppuccin.jetbrains",
+                "com.github.catppuccin.jetbrains_icons"
+            ]
         }
     }
     // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
