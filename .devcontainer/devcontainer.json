@@ -7,7 +7,9 @@
     },
     // Features to add to the dev container. More info: https://containers.dev/features.
     "features": {
-        "ghcr.io/devcontainers/features/git:1": {}
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/node:2.0.0": {},
+        "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
     },
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
@@ -17,6 +19,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "jebbs.plantuml",
                 "ms-vscode.cpptools",
                 "ms-vscode.cpptools-extension-pack",
                 "matepek.vscode-catch2-test-adapter",
@@ -57,7 +60,9 @@
                 "explorer.autoReveal": true, // Reveals the active file in the sidebar explorer
                 "workbench.sideBar.location": "left", // Default sidebar location
                 // Terminal
-                "terminal.integrated.fontSize": 12 // Adjust terminal font size
+                "terminal.integrated.fontSize": 12, // Adjust terminal font size
+                // PlantUML
+                "jebbs.plantuml"
             }
         },
         "jetbrains": {
